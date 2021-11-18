@@ -36,3 +36,16 @@ import android.os.Bundle;
 --"run-android" unrecognised error solution
 npm install --save react-native
 
+
+
+---Go to /android/gradle/wrapper/gradle-wrapper.properties file in your RN project
+
+Find this line that starts with distributionUrl. Change the gradle version into gradle-6.3-all.zip.
+
+In my project, it was:
+
+distributionUrl=https\://services.gradle.org/distributions/gradle-6.0.1-all.zip
+and I changed it into:
+
+distributionUrl=https\://services.gradle.org/distributions/gradle-6.3-all.zip
+That's it.
