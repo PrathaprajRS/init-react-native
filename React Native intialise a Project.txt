@@ -1,0 +1,38 @@
+1. Install Java JDK 15
+2. Add Java Home Environment Variable 
+3. Install node.js 14 or current available version using dowloaded file
+4. npm install -g react-native
+5. Install VS code and extensions like Bracket Pair colorizer,ES7 React/Redux/GraphQL/React-Native snippets,Material Icon Theme,npm Intellisense,
+Prettier - Code formatter,Visual Studio IntelliCode
+6. Install Android Studio
+7. Install Android sdk pie
+8. Add Android_Home to user Environmental variable 
+9. Create new react native project (npx react-native init my_first_project)
+10.open terminal in vs code and run (npx react-native run-android)
+
+
+Other dependencies
+***npx react-native start
+
+***react-navigattion
+--npm install @react-navigation/native
+
+--npm install react-native-screens react-native-safe-area-context
+
+
+--react-native-screens package requires one additional configuration step to properly work on Android devices. Edit MainActivity.java file which is located in android/app/src/main/java/<your package name>/MainActivity.java.
+
+Add the following code to the body of MainActivity class:
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(null);
+}
+
+--and make sure to add an import statement at the top of this file:
+
+import android.os.Bundle;
+
+--"run-android" unrecognised error solution
+npm install --save react-native
+
