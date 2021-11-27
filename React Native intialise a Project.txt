@@ -49,3 +49,6 @@ and I changed it into:
 
 distributionUrl=https\://services.gradle.org/distributions/gradle-6.3-all.zip
 That's it.
+
+
+---npm install --save react-native-vector-icon
