@@ -12,9 +12,9 @@ Prettier - Code formatter,Visual Studio IntelliCode
 
 
 Other dependencies
-***npx react-native start
+===npx react-native start
 
-***react-navigattion
+===react-navigation
 --npm install @react-navigation/native
 
 --npm install react-native-screens react-native-safe-area-context
@@ -29,16 +29,16 @@ protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
 }
 
---and make sure to add an import statement at the top of this file:
+====and make sure to add an import statement at the top of this file:
 
 import android.os.Bundle;
 
---"run-android" unrecognised error solution
+======"run-android" unrecognised error solution
 npm install --save react-native
 
 
 
----Go to /android/gradle/wrapper/gradle-wrapper.properties file in your RN project
+====Go to /android/gradle/wrapper/gradle-wrapper.properties file in your RN project
 
 Find this line that starts with distributionUrl. Change the gradle version into gradle-6.3-all.zip.
 
@@ -51,4 +51,4 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-6.3-all.zip
 That's it.
 
 
----npm install --save react-native-vector-icon
+====npm install --save react-native-vector-icon
